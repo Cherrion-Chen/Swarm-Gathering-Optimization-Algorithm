@@ -1,0 +1,6 @@
+The optimization functions are written in sgo.py, based on Numpy.
+
+swarm_gathering(cost:function, cen:np.ndarray, ran:np.ndarray, swarm_size=32, epochs=128)->np.ndarray
+momentum_swarm_gathering(cost:function, cen:np.ndarray, ran:np.ndarray, gamma=0.1, swarm_size=32, epochs=128)->np.ndarray
+
+You can also use setup.py to generate .pyd files to further enhance the performance.
